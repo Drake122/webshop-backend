@@ -16,6 +16,16 @@
                 "id": 1,
                 "user": 1,
                 "role": "admin"
+            },
+            {
+              "id": 2,
+              "user": 1,
+              "role": "user"
+            },
+            {
+              "id": 3,
+              "user": 1,
+              "role": "warehouse_owner"
             }
         ]
     },
