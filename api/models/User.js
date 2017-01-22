@@ -2,6 +2,9 @@ var auth = require('./auth/auth');
 
 module.exports = {
   attributes: {
+    role:{
+      model:'Role'
+    },
     email: {
       type: 'email',
       required: true,

@@ -5,7 +5,13 @@ module.exports = {
     user: {
       model: 'User'
     },
-    role: 'string'
+    role:{
+      type:'string'
+    } ,
+    users:{
+      collection:'User',
+      via:'role'
+    }
   },
   beforeCreate: auth.hasRole('admin'),
   beforeUpdate: auth.hasRole('admin')
